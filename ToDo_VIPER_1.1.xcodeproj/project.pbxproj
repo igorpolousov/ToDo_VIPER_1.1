@@ -6,6 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C28E8ADD2ECA0F6700F10529 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E8AD92ECA0F6700F10529 /* ContentView.swift */; };
+		C28E8ADE2ECA0F6700F10529 /* ToDo_VIPER_1_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E8ADB2ECA0F6700F10529 /* ToDo_VIPER_1_1App.swift */; };
+		C28E8ADF2ECA0F6700F10529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28E8AD82ECA0F6700F10529 /* Assets.xcassets */; };
+		C28E8AE02ECA0F6700F10529 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C28E8ADA2ECA0F6700F10529 /* README.md */; };
+		C28E8AE32ECA0F6A00F10529 /* ToDo_VIPER_1_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E8AE12ECA0F6A00F10529 /* ToDo_VIPER_1_1Tests.swift */; };
+		C28E8AE72ECA0F6F00F10529 /* ToDo_VIPER_1_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E8AE42ECA0F6F00F10529 /* ToDo_VIPER_1_1UITests.swift */; };
+		C28E8AE82ECA0F6F00F10529 /* ToDo_VIPER_1_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E8AE52ECA0F6F00F10529 /* ToDo_VIPER_1_1UITestsLaunchTests.swift */; };
+		C28E8AEC2ECA0FDF00F10529 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28E8AEB2ECA0FDF00F10529 /* Colors.xcassets */; };
+		C28E8AEE2ECA11FA00F10529 /* SFProText.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E8AED2ECA11FA00F10529 /* SFProText.ttf */; };
+		C28E8AF02ECA11FF00F10529 /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E8AEF2ECA11FF00F10529 /* SF-Pro.ttf */; };
+		C28E8AF22ECA130E00F10529 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28E8AF12ECA130E00F10529 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C252D2412EC7662300D1B79C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +41,18 @@
 		C252D2332EC7662000D1B79C /* ToDo_VIPER_1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo_VIPER_1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C252D2402EC7662300D1B79C /* ToDo_VIPER_1.1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDo_VIPER_1.1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C252D24A2EC7662300D1B79C /* ToDo_VIPER_1.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDo_VIPER_1.1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28E8AD82ECA0F6700F10529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C28E8AD92ECA0F6700F10529 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C28E8ADA2ECA0F6700F10529 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C28E8ADB2ECA0F6700F10529 /* ToDo_VIPER_1_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_VIPER_1_1App.swift; sourceTree = "<group>"; };
+		C28E8AE12ECA0F6A00F10529 /* ToDo_VIPER_1_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_VIPER_1_1Tests.swift; sourceTree = "<group>"; };
+		C28E8AE42ECA0F6F00F10529 /* ToDo_VIPER_1_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_VIPER_1_1UITests.swift; sourceTree = "<group>"; };
+		C28E8AE52ECA0F6F00F10529 /* ToDo_VIPER_1_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_VIPER_1_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C28E8AEB2ECA0FDF00F10529 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		C28E8AED2ECA11FA00F10529 /* SFProText.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFProText.ttf; sourceTree = "<group>"; };
+		C28E8AEF2ECA11FF00F10529 /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro.ttf"; sourceTree = "<group>"; };
+		C28E8AF12ECA130E00F10529 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C252D2352EC7662000D1B79C /* ToDo_VIPER_1.1 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ToDo_VIPER_1.1;
-			sourceTree = "<group>";
-		};
-		C252D2432EC7662300D1B79C /* ToDo_VIPER_1.1Tests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ToDo_VIPER_1.1Tests;
-			sourceTree = "<group>";
-		};
-		C252D24D2EC7662300D1B79C /* ToDo_VIPER_1.1UITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ToDo_VIPER_1.1UITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C252D2302EC7662000D1B79C /* Frameworks */ = {
@@ -75,9 +82,9 @@
 		C252D22A2EC7662000D1B79C = {
 			isa = PBXGroup;
 			children = (
-				C252D2352EC7662000D1B79C /* ToDo_VIPER_1.1 */,
-				C252D2432EC7662300D1B79C /* ToDo_VIPER_1.1Tests */,
-				C252D24D2EC7662300D1B79C /* ToDo_VIPER_1.1UITests */,
+				C28E8ADC2ECA0F6700F10529 /* ToDo_VIPER_1.1 */,
+				C28E8AE22ECA0F6A00F10529 /* ToDo_VIPER_1.1Tests */,
+				C28E8AE62ECA0F6F00F10529 /* ToDo_VIPER_1.1UITests */,
 				C252D2342EC7662000D1B79C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +97,54 @@
 				C252D24A2EC7662300D1B79C /* ToDo_VIPER_1.1UITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C28E8ADC2ECA0F6700F10529 /* ToDo_VIPER_1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				C28E8ADA2ECA0F6700F10529 /* README.md */,
+				C28E8AE92ECA0F7300F10529 /* Resources */,
+				C28E8AD82ECA0F6700F10529 /* Assets.xcassets */,
+				C28E8AD92ECA0F6700F10529 /* ContentView.swift */,
+				C28E8ADB2ECA0F6700F10529 /* ToDo_VIPER_1_1App.swift */,
+			);
+			path = ToDo_VIPER_1.1;
+			sourceTree = "<group>";
+		};
+		C28E8AE22ECA0F6A00F10529 /* ToDo_VIPER_1.1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C28E8AE12ECA0F6A00F10529 /* ToDo_VIPER_1_1Tests.swift */,
+			);
+			path = ToDo_VIPER_1.1Tests;
+			sourceTree = "<group>";
+		};
+		C28E8AE62ECA0F6F00F10529 /* ToDo_VIPER_1.1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C28E8AE42ECA0F6F00F10529 /* ToDo_VIPER_1_1UITests.swift */,
+				C28E8AE52ECA0F6F00F10529 /* ToDo_VIPER_1_1UITestsLaunchTests.swift */,
+			);
+			path = ToDo_VIPER_1.1UITests;
+			sourceTree = "<group>";
+		};
+		C28E8AE92ECA0F7300F10529 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C28E8AEA2ECA0F7D00F10529 /* Theme */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C28E8AEA2ECA0F7D00F10529 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				C28E8AEB2ECA0FDF00F10529 /* Colors.xcassets */,
+				C28E8AED2ECA11FA00F10529 /* SFProText.ttf */,
+				C28E8AEF2ECA11FF00F10529 /* SF-Pro.ttf */,
+				C28E8AF12ECA130E00F10529 /* Images.xcassets */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +161,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C252D2352EC7662000D1B79C /* ToDo_VIPER_1.1 */,
 			);
 			name = ToDo_VIPER_1.1;
 			packageProductDependencies = (
@@ -130,9 +182,6 @@
 			dependencies = (
 				C252D2422EC7662300D1B79C /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				C252D2432EC7662300D1B79C /* ToDo_VIPER_1.1Tests */,
-			);
 			name = ToDo_VIPER_1.1Tests;
 			packageProductDependencies = (
 			);
@@ -152,9 +201,6 @@
 			);
 			dependencies = (
 				C252D24C2EC7662300D1B79C /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C252D24D2EC7662300D1B79C /* ToDo_VIPER_1.1UITests */,
 			);
 			name = ToDo_VIPER_1.1UITests;
 			packageProductDependencies = (
@@ -212,6 +258,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28E8AEE2ECA11FA00F10529 /* SFProText.ttf in Resources */,
+				C28E8AEC2ECA0FDF00F10529 /* Colors.xcassets in Resources */,
+				C28E8ADF2ECA0F6700F10529 /* Assets.xcassets in Resources */,
+				C28E8AF22ECA130E00F10529 /* Images.xcassets in Resources */,
+				C28E8AE02ECA0F6700F10529 /* README.md in Resources */,
+				C28E8AF02ECA11FF00F10529 /* SF-Pro.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28E8ADD2ECA0F6700F10529 /* ContentView.swift in Sources */,
+				C28E8ADE2ECA0F6700F10529 /* ToDo_VIPER_1_1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28E8AE32ECA0F6A00F10529 /* ToDo_VIPER_1_1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +305,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28E8AE72ECA0F6F00F10529 /* ToDo_VIPER_1_1UITests.swift in Sources */,
+				C28E8AE82ECA0F6F00F10529 /* ToDo_VIPER_1_1UITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
