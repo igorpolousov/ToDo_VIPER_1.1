@@ -9,6 +9,10 @@ import XCTest
 @testable import ToDo_VIPER_1_1
 
 final class ToDo_VIPER_1_1Tests: XCTestCase {
+    
+    // MARK: Properties
+    // Декодер для тестирования Todo
+    var decoder: JSONDecoder!
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
