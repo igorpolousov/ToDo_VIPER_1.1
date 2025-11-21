@@ -21,6 +21,9 @@
 		C28E8AF42ECA149800F10529 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E8AF32ECA149800F10529 /* Theme.swift */; };
 		C2B76CCC2ED07D6D00CA7BEC /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CCB2ED07D6D00CA7BEC /* Todo.swift */; };
 		C2B76CCE2ED0806A00CA7BEC /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CCD2ED0806A00CA7BEC /* ErrorHandler.swift */; };
+		C2B76CD12ED083BA00CA7BEC /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CCB2ED07D6D00CA7BEC /* Todo.swift */; };
+		C2B76CD22ED083C000CA7BEC /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CCD2ED0806A00CA7BEC /* ErrorHandler.swift */; };
+		C2B76CD42ED0848700CA7BEC /* TodoTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = C2B76CD32ED0848700CA7BEC /* TodoTestPlan.xctestplan */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,7 @@
 		C28E8AF32ECA149800F10529 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		C2B76CCB2ED07D6D00CA7BEC /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		C2B76CCD2ED0806A00CA7BEC /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		C2B76CD32ED0848700CA7BEC /* TodoTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TodoTestPlan.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				C28E8ADA2ECA0F6700F10529 /* README.md */,
+				C2B76CD32ED0848700CA7BEC /* TodoTestPlan.xctestplan */,
 				C2B76CCA2ED07A7A00CA7BEC /* Entities */,
 				C28E8AE92ECA0F7300F10529 /* Resources */,
 				C28E8AD82ECA0F6700F10529 /* Assets.xcassets */,
@@ -234,7 +239,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2600;
-				LastUpgradeCheck = 2600;
+				LastUpgradeCheck = 2610;
 				TargetAttributes = {
 					C252D2322EC7662000D1B79C = {
 						CreatedOnToolsVersion = 26.0.1;
@@ -281,6 +286,7 @@
 				C28E8AF22ECA130E00F10529 /* Images.xcassets in Resources */,
 				C28E8AE02ECA0F6700F10529 /* README.md in Resources */,
 				C28E8AF02ECA11FF00F10529 /* SF-Pro.ttf in Resources */,
+				C2B76CD42ED0848700CA7BEC /* TodoTestPlan.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +323,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B76CD22ED083C000CA7BEC /* ErrorHandler.swift in Sources */,
 				C28E8AE32ECA0F6A00F10529 /* ToDo_VIPER_1_1Tests.swift in Sources */,
+				C2B76CD12ED083BA00CA7BEC /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -462,6 +471,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -549,16 +559,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3M56A453W;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "online.swampios.ToDo-VIPER-1-1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDo_VIPER_1.1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToDo_VIPER_1.1";
 			};
 			name = Debug;
@@ -571,16 +585,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3M56A453W;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "online.swampios.ToDo-VIPER-1-1Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDo_VIPER_1.1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToDo_VIPER_1.1";
 			};
 			name = Release;
@@ -596,11 +614,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "online.swampios.ToDo-VIPER-1-1UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = ToDo_VIPER_1.1;
 			};
 			name = Debug;
@@ -616,11 +638,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "online.swampios.ToDo-VIPER-1-1UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = ToDo_VIPER_1.1;
 			};
 			name = Release;

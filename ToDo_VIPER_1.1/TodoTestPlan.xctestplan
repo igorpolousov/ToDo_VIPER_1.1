@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "ED4039B3-EDA6-4780-A503-5BA5486FA33D",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:ToDo_VIPER_1.1.xcodeproj",
+        "identifier" : "C252D23F2EC7662300D1B79C",
+        "name" : "ToDo_VIPER_1.1Tests"
+      }
+    }
+  ],
+  "version" : 1
+}
