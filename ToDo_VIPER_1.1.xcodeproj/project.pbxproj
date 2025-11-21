@@ -104,6 +104,7 @@
 		C28E8ADC2ECA0F6700F10529 /* ToDo_VIPER_1.1 */ = {
 			isa = PBXGroup;
 			children = (
+				C2B76CCA2ED07A7A00CA7BEC /* Entities */,
 				C28E8ADA2ECA0F6700F10529 /* README.md */,
 				C28E8AE92ECA0F7300F10529 /* Resources */,
 				C28E8AD82ECA0F6700F10529 /* Assets.xcassets */,
@@ -148,6 +149,13 @@
 				C28E8AF32ECA149800F10529 /* Theme.swift */,
 			);
 			path = Theme;
+			sourceTree = "<group>";
+		};
+		C2B76CCA2ED07A7A00CA7BEC /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
