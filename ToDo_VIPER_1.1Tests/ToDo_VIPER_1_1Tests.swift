@@ -16,10 +16,24 @@ final class ToDo_VIPER_1_1Tests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        decoder = JSONDecoder()
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        decoder = nil
+    }
+    
+    // MARK: Entities tests
+    
+    // Testing struct Todo decodes JSON
+    func testingTodoDecodesJSON() throws {
+        let decoded = try decoder.decode(Todo.self, from: testTodoData)
+        
+        XCTAssertEqual(decoded.id, 1)
+        XCTAssertEqual(decoded.completed, false)
+        XCTAssertEqual(decoded.todo, "Do something nice for someone you care about")
+        XCTAssertEqual(decoded.userId, 152)
     }
 
     func testExample() throws {
