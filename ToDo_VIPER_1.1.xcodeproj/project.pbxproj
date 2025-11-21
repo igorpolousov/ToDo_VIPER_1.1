@@ -19,6 +19,7 @@
 		C28E8AF02ECA11FF00F10529 /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E8AEF2ECA11FF00F10529 /* SF-Pro.ttf */; };
 		C28E8AF22ECA130E00F10529 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28E8AF12ECA130E00F10529 /* Images.xcassets */; };
 		C28E8AF42ECA149800F10529 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E8AF32ECA149800F10529 /* Theme.swift */; };
+		C2B76CCC2ED07D6D00CA7BEC /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CCB2ED07D6D00CA7BEC /* Todo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		C28E8AEF2ECA11FF00F10529 /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro.ttf"; sourceTree = "<group>"; };
 		C28E8AF12ECA130E00F10529 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C28E8AF32ECA149800F10529 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C2B76CCB2ED07D6D00CA7BEC /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +106,8 @@
 		C28E8ADC2ECA0F6700F10529 /* ToDo_VIPER_1.1 */ = {
 			isa = PBXGroup;
 			children = (
-				C2B76CCA2ED07A7A00CA7BEC /* Entities */,
 				C28E8ADA2ECA0F6700F10529 /* README.md */,
+				C2B76CCA2ED07A7A00CA7BEC /* Entities */,
 				C28E8AE92ECA0F7300F10529 /* Resources */,
 				C28E8AD82ECA0F6700F10529 /* Assets.xcassets */,
 				C28E8AD92ECA0F6700F10529 /* ContentView.swift */,
@@ -154,6 +156,7 @@
 		C2B76CCA2ED07A7A00CA7BEC /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				C2B76CCB2ED07D6D00CA7BEC /* Todo.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				C28E8AF42ECA149800F10529 /* Theme.swift in Sources */,
 				C28E8ADD2ECA0F6700F10529 /* ContentView.swift in Sources */,
 				C28E8ADE2ECA0F6700F10529 /* ToDo_VIPER_1_1App.swift in Sources */,
+				C2B76CCC2ED07D6D00CA7BEC /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
