@@ -25,8 +25,8 @@
 		C2B76CD22ED083C000CA7BEC /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CCD2ED0806A00CA7BEC /* ErrorHandler.swift */; };
 		C2B76CD42ED0848700CA7BEC /* TodoTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = C2B76CD32ED0848700CA7BEC /* TodoTestPlan.xctestplan */; };
 		C2B76CD62ED09A1100CA7BEC /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CD52ED09A1100CA7BEC /* TestData.swift */; };
-		C2B76CD82ED09FAF00CA7BEC /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CD72ED09FAF00CA7BEC /* Todos.swift */; };
-		C2B76CD92ED09FAF00CA7BEC /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CD72ED09FAF00CA7BEC /* Todos.swift */; };
+		C2B76CDD2ED0A33800CA7BEC /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CDB2ED0A33800CA7BEC /* Todos.swift */; };
+		C2B76CDE2ED0A45F00CA7BEC /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CDB2ED0A33800CA7BEC /* Todos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,7 @@
 		C2B76CCD2ED0806A00CA7BEC /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		C2B76CD32ED0848700CA7BEC /* TodoTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TodoTestPlan.xctestplan; sourceTree = "<group>"; };
 		C2B76CD52ED09A1100CA7BEC /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
-		C2B76CD72ED09FAF00CA7BEC /* Todos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todos.swift; sourceTree = "<group>"; };
+		C2B76CDB2ED0A33800CA7BEC /* Todos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +171,7 @@
 			children = (
 				C2B76CCB2ED07D6D00CA7BEC /* Todo.swift */,
 				C2B76CCD2ED0806A00CA7BEC /* ErrorHandler.swift */,
-				C2B76CD72ED09FAF00CA7BEC /* Todos.swift */,
+				C2B76CDB2ED0A33800CA7BEC /* Todos.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -324,7 +324,7 @@
 				C2B76CD62ED09A1100CA7BEC /* TestData.swift in Sources */,
 				C28E8ADE2ECA0F6700F10529 /* ToDo_VIPER_1_1App.swift in Sources */,
 				C2B76CCC2ED07D6D00CA7BEC /* Todo.swift in Sources */,
-				C2B76CD82ED09FAF00CA7BEC /* Todos.swift in Sources */,
+				C2B76CDD2ED0A33800CA7BEC /* Todos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +335,7 @@
 				C2B76CD22ED083C000CA7BEC /* ErrorHandler.swift in Sources */,
 				C28E8AE32ECA0F6A00F10529 /* ToDo_VIPER_1_1Tests.swift in Sources */,
 				C2B76CD12ED083BA00CA7BEC /* Todo.swift in Sources */,
-				C2B76CD92ED09FAF00CA7BEC /* Todos.swift in Sources */,
+				C2B76CDE2ED0A45F00CA7BEC /* Todos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

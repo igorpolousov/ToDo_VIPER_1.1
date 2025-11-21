@@ -36,6 +36,23 @@ final class ToDo_VIPER_1_1Tests: XCTestCase {
         XCTAssertEqual(decoded.userId, 152)
     }
     
+    // Testing struct Todos decodes JSON
+    
+    func testingTodosDecodesJSON() throws {
+        let decoded =  try decoder.decode(Todos.self, from: testTodosData)
+        
+        // Проверяем количество полученных объектов в массив
+        XCTAssertEqual(decoded.todos.count, 6)
+        
+        // Делаем проверку обекта под индексом 3 на соотвествие данным
+        XCTAssertEqual(decoded.todos[3].id, 4)
+        XCTAssertEqual(decoded.todos[3].completed, false)
+        XCTAssertEqual(decoded.todos[3].todo, "Watch a documentary")
+        XCTAssertEqual(decoded.todos[3].userId, 84)
+        
+    }
+    
+    // Testing ErrorHandler shows missing data error description
     func testingErrorHAndlerShowMessageMissingData() throws {
         let missingDataDescrioption = ErrorHandler.missingData.errorDescription
         
