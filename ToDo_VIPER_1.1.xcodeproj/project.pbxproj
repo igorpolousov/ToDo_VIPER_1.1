@@ -20,6 +20,7 @@
 		C28E8AF22ECA130E00F10529 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28E8AF12ECA130E00F10529 /* Images.xcassets */; };
 		C28E8AF42ECA149800F10529 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E8AF32ECA149800F10529 /* Theme.swift */; };
 		C2B76CCC2ED07D6D00CA7BEC /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CCB2ED07D6D00CA7BEC /* Todo.swift */; };
+		C2B76CCE2ED0806A00CA7BEC /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CCD2ED0806A00CA7BEC /* ErrorHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		C28E8AF12ECA130E00F10529 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C28E8AF32ECA149800F10529 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		C2B76CCB2ED07D6D00CA7BEC /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		C2B76CCD2ED0806A00CA7BEC /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				C2B76CCB2ED07D6D00CA7BEC /* Todo.swift */,
+				C2B76CCD2ED0806A00CA7BEC /* ErrorHandler.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			files = (
 				C28E8AF42ECA149800F10529 /* Theme.swift in Sources */,
 				C28E8ADD2ECA0F6700F10529 /* ContentView.swift in Sources */,
+				C2B76CCE2ED0806A00CA7BEC /* ErrorHandler.swift in Sources */,
 				C28E8ADE2ECA0F6700F10529 /* ToDo_VIPER_1_1App.swift in Sources */,
 				C2B76CCC2ED07D6D00CA7BEC /* Todo.swift in Sources */,
 			);
