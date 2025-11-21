@@ -16,7 +16,7 @@ extension ErrorHandler: LocalizedError {
     var errorDescription: String? {
         switch self {
         case .missingData:
-            return " Missing valid data/Отсутствуют необходимые данные"
+            return "Missing valid data/Отсутствуют необходимые данные"
         }
     }
     

@@ -35,6 +35,12 @@ final class ToDo_VIPER_1_1Tests: XCTestCase {
         XCTAssertEqual(decoded.todo, "Do something nice for someone you care about")
         XCTAssertEqual(decoded.userId, 152)
     }
+    
+    func testingErrorHAndlerShowMessageMissingData() throws {
+        let missingDataDescrioption = ErrorHandler.missingData.errorDescription
+        
+        XCTAssertEqual(missingDataDescrioption, "Missing valid data/Отсутствуют необходимые данные" )
+    }
 
     func testExample() throws {
         // This is an example of a functional test case.
