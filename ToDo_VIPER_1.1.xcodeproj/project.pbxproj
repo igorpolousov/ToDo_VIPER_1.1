@@ -27,6 +27,7 @@
 		C2B76CD62ED09A1100CA7BEC /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CD52ED09A1100CA7BEC /* TestData.swift */; };
 		C2B76CDD2ED0A33800CA7BEC /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CDB2ED0A33800CA7BEC /* Todos.swift */; };
 		C2B76CDE2ED0A45F00CA7BEC /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CDB2ED0A33800CA7BEC /* Todos.swift */; };
+		C2B76CE22ED1F3F700CA7BEC /* ToDo_VIPER_1.1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CE02ED1F3F700CA7BEC /* ToDo_VIPER_1.1.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		C2B76CD32ED0848700CA7BEC /* TodoTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TodoTestPlan.xctestplan; sourceTree = "<group>"; };
 		C2B76CD52ED09A1100CA7BEC /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 		C2B76CDB2ED0A33800CA7BEC /* Todos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todos.swift; sourceTree = "<group>"; };
+		C2B76CE12ED1F3F700CA7BEC /* ToDo_VIPER_1.1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDo_VIPER_1.1.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		C28E8AE92ECA0F7300F10529 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C2B76CDF2ED1F39A00CA7BEC /* CoreData */,
 				C28E8AEA2ECA0F7D00F10529 /* Theme */,
 				C2B76CD52ED09A1100CA7BEC /* TestData.swift */,
 			);
@@ -174,6 +177,14 @@
 				C2B76CDB2ED0A33800CA7BEC /* Todos.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		C2B76CDF2ED1F39A00CA7BEC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C2B76CE02ED1F3F700CA7BEC /* ToDo_VIPER_1.1.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +334,7 @@
 				C2B76CCE2ED0806A00CA7BEC /* ErrorHandler.swift in Sources */,
 				C2B76CD62ED09A1100CA7BEC /* TestData.swift in Sources */,
 				C28E8ADE2ECA0F6700F10529 /* ToDo_VIPER_1_1App.swift in Sources */,
+				C2B76CE22ED1F3F700CA7BEC /* ToDo_VIPER_1.1.xcdatamodeld in Sources */,
 				C2B76CCC2ED07D6D00CA7BEC /* Todo.swift in Sources */,
 				C2B76CDD2ED0A33800CA7BEC /* Todos.swift in Sources */,
 			);
@@ -701,6 +713,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2B76CE02ED1F3F700CA7BEC /* ToDo_VIPER_1.1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2B76CE12ED1F3F700CA7BEC /* ToDo_VIPER_1.1.xcdatamodel */,
+			);
+			currentVersion = C2B76CE12ED1F3F700CA7BEC /* ToDo_VIPER_1.1.xcdatamodel */;
+			path = ToDo_VIPER_1.1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C252D22B2EC7662000D1B79C /* Project object */;
 }
