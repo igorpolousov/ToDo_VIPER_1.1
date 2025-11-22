@@ -28,6 +28,7 @@
 		C2B76CDD2ED0A33800CA7BEC /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CDB2ED0A33800CA7BEC /* Todos.swift */; };
 		C2B76CDE2ED0A45F00CA7BEC /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CDB2ED0A33800CA7BEC /* Todos.swift */; };
 		C2B76CE22ED1F3F700CA7BEC /* ToDo_VIPER_1.1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CE02ED1F3F700CA7BEC /* ToDo_VIPER_1.1.xcdatamodeld */; };
+		C2B76CE42ED1F77400CA7BEC /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B76CE32ED1F77400CA7BEC /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		C2B76CD52ED09A1100CA7BEC /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 		C2B76CDB2ED0A33800CA7BEC /* Todos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todos.swift; sourceTree = "<group>"; };
 		C2B76CE12ED1F3F700CA7BEC /* ToDo_VIPER_1.1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDo_VIPER_1.1.xcdatamodel; sourceTree = "<group>"; };
+		C2B76CE32ED1F77400CA7BEC /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				C2B76CE02ED1F3F700CA7BEC /* ToDo_VIPER_1.1.xcdatamodeld */,
+				C2B76CE32ED1F77400CA7BEC /* CoreDataStack.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				C28E8AF42ECA149800F10529 /* Theme.swift in Sources */,
 				C28E8ADD2ECA0F6700F10529 /* ContentView.swift in Sources */,
 				C2B76CCE2ED0806A00CA7BEC /* ErrorHandler.swift in Sources */,
+				C2B76CE42ED1F77400CA7BEC /* CoreDataStack.swift in Sources */,
 				C2B76CD62ED09A1100CA7BEC /* TestData.swift in Sources */,
 				C28E8ADE2ECA0F6700F10529 /* ToDo_VIPER_1_1App.swift in Sources */,
 				C2B76CE22ED1F3F700CA7BEC /* ToDo_VIPER_1.1.xcdatamodeld in Sources */,
