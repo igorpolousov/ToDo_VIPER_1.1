@@ -10,6 +10,12 @@ import Foundation
 enum ErrorHandler: Error {
     // Ошибки получения данных по сети
     case missingData
+    
+    // Ошибки загрузки persistant stores
+    case unableToLoadPersistantStores
+    
+    // Ошибки сохранения данных в context
+    case unableToSaveContextChanges
 }
 
 extension ErrorHandler: LocalizedError {
@@ -17,6 +23,12 @@ extension ErrorHandler: LocalizedError {
         switch self {
         case .missingData:
             return "Missing valid data/Отсутствуют необходимые данные"
+            
+        case .unableToSaveContextChanges:
+            return "Error to save data in Core Data managed context"
+            
+        case .unableToLoadPersistantStores:
+            return " Error to load persistant stores"
         }
     }
     

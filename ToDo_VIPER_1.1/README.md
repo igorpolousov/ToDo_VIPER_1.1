@@ -120,7 +120,12 @@
     
     20. Создадим файл CoreDataStack.swift в котором будет создан container и context для созранения изменений
     
-    21. Создадим файлы с классом и свойствами для работы с UI предварительно кликнув на название файла модели через Editor -> Create NSManaged Object subclass
+    21. Создадим файлы с классом и свойствами для работы с UI предварительно кликнув на название файла модели через Editor -> Create NSManaged Object subclass.
+    Для выполнения задач Core Data во многопоточном режиме необходимо использовать метод perform, так же для обнаружени проблем с concurrency включим concurrency debug: в верхней части xcode(там же где выбираем устройство для симулятора) выберем edit scheme -> run -> arguments и добавим в environment variables Name: com.apple.CoreData.ConcurrencyDebug
+        Value: 1
+    Это нужно для такого случая, если будет попытка в коде произвести действия с managed object context не в главном async thread при помощи DispatchQueue без метода perform.
+    Для работы с задачами core data в background thread необходимо создаать backgroundContext и для того чтобы данные попадали в main context необходимо установить для manged object context automaticallyMergesChangesFromParent = true
+    И далее все задачи для core data выполнять в background Context
     
     22. Создание необходимых для работы CoreData файлов завершено,  запустим тесты и затем проверим покрытие тестами кода и какие тесты необходимо сделать.
     

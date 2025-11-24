@@ -21,7 +21,7 @@ class CoreDataStack {
         let container = NSPersistentContainer(name: modelName)
         container.loadPersistentStores { _, error in
             if let error = error as NSError? {
-                print("Unable to load store: \(error.localizedDescription)")
+                fatalError("\(String(describing: ErrorHandler.unableToLoadPersistantStores.errorDescription)) \(error.userInfo)")
             }
         }
         return container
@@ -35,12 +35,22 @@ class CoreDataStack {
     // Context changes save impl.
     func saveContext() {
         guard managedContext.hasChanges else { return }
+        managedContext.automaticallyMergesChangesFromParent = true
+        let backgroundContext = storeContainer.newBackgroundContext()
         
-        do {
-            try managedContext.save()
-        }  catch let error as NSError {
-            print("Unable to save context: \(error.localizedDescription)")
+        backgroundContext.perform {
+            do {
+                try backgroundContext.save()
+            } catch let error as NSError {
+                fatalError("\(String(describing: ErrorHandler.unableToSaveContextChanges.errorDescription)): \(error.userInfo)")
+            }
+            
         }
+//        do {
+//            try managedContext.save()
+//        }  catch let error as NSError {
+//            print("Unable to save context: \(error.localizedDescription)")
+//        }
     }
     
 }
